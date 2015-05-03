@@ -30,4 +30,4 @@ fi
 
 echo "Starting new docker container"
 sudo docker build --no-cache -t=$ImageName .
-sudo docker run -d --name $containerName -p=\"$hostIP:80\" $ImageName 
+sudo docker run -d --name $containerName -p=\"$hostIP:4567\" $ImageName 
