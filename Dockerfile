@@ -60,6 +60,6 @@ RUN cd /usr/local/run/greenhouse && /usr/local/maven/bin/mvn -Dmaven.test.skip=t
 CMD /usr/local/start-everything.sh && tail -F /usr/local/tomcat/logs/catalina.out
 
 # Forward HTTP ports
-EXPOSE 80 8080
+EXPOSE 80 4567
 
 
